@@ -8,75 +8,107 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
-## [1.0.0] - 2025-01-XX
+## [2.0.0] - 2025-12-28
 
 ### Added | اضافه شده
 
 #### Features | ویژگی‌ها
 
-- ✨ Initial release of bilingual Calculator | انتشار اولیه ماشین حساب دو زبانه
-- 🌍 Full Persian (Farsi) and English language support | پشتیبانی کامل از فارسی و انگلیسی
-- 📱 Responsive design for mobile, tablet, and desktop | طراحی ریسپانسیو برای موبایل، تبلت و دسکتاپ
-- 🧮 Advanced math expression evaluation | ارزیابی پیشرفته عبارات ریاضی
-  - Basic operations: +, -, ×, ÷ | عملیات پایه: جمع، تفریق، ضرب، تقسیم
-  - Parentheses support | پشتیبانی از پرانتز
-  - Decimal numbers | اعداد اعشاری
-  - Percentage calculations | محاسبات درصد
-- ⌨️ Dual input modes | حالت‌های ورودی دوگانه
-  - Virtual keyboard mode | حالت کیبورد مجازی
-  - Direct text input mode | حالت ورودی مستقیم
-  - Combined mode | حالت ترکیبی
-- 📜 Calculation history feature | ویژگی تاریخچه محاسبات
-  - Save up to 20 calculations | ذخیره تا 20 محاسبه
-  - View and reuse history | مشاهده و استفاده مجدد از تاریخچه
-  - Clear history option | گزینه پاک کردن تاریخچه
-- 💾 Data persistence with localStorage | ذخیره‌سازی داده‌ها با localStorage
-  - Language preference saved | ذخیره تنظیمات زبان
-  - History saved across sessions | ذخیره تاریخچه در نشست‌های مختلف
-- 🎨 Modern UI with Tailwind CSS and shadcn/ui | رابط کاربری مدرن با Tailwind CSS و shadcn/ui
-- 🔄 Language switcher for real-time language changing | سوییچر زبان برای تغییر لحظه‌ای زبان
-- 🔢 Support for complex expressions like `(8-10+32)/2.5` | پشتیبانی از عبارات پیچیده مثل `(8-10+32)/2.5`
+- ✨ **Scientific Calculator Mode**: Added full scientific calculator support | اضافه کردن پشتیبانی کامل از ماشین حساب علمی
+  - Trigonometric functions: sin, cos, tan | توابع مثلثاتی: سینوس، کسینوس، تانژانت
+  - Logarithmic functions: log (base 10), ln (natural) | توابع لگاریتمی: لگ (پایه 10)، لگاریتم طبیعی
+  - Power and root operations: x^y, √x | عملیات توان و رادیکال: x^y، جذر x
+  - Absolute value: |x| | قدر مطلق
+  - Mathematical constants: π (PI), e (Euler's number) | ثابت‌های ریاضی: پی، عدد اویلر
+  - Factorial support: n! | پشتیبانی از فاکتوریل: n!
+
+- 🎨 **Theme Management**: Added light/dark/system theme support | اضافه کردن پشتیبانی از تم روشن/تاریک/سیستم
+  - Light mode | حالت روشن
+  - Dark mode | حالت تاریک
+  - System preference detection | تشخیص ترجیح سیستم
+  - Theme toggle button | دکمه تغییر تم
+  - Persistent theme in localStorage | ذخیره تم در localStorage
+
+- ⚙️ **Settings Tab**: Added dedicated settings panel | اضافه کردن پنل تنظیمات اختصاصی
+  - Theme settings section | بخش تنظیمات تم
+  - Language settings section | بخش تنظیمات زبان
+  - Calculator mode settings | تنظیمات حالت ماشین حساب
+  - Scientific functions reference | مرجع توابع علمی
+
+- 🎯 **Calculator Modes**: Added mode switching between Basic and Scientific | اضافه کردن تغییر حالت بین پایه و علمی
+  - Basic mode with standard operations (+, -, ×, ÷, %) | حالت پایه با عملیات استاندارد
+  - Scientific mode with advanced functions | حالت علمی با توابع پیشرفته
+  - Mode persistence in localStorage | ذخیره حالت در localStorage
+
+- ⌨️ **Enhanced Input Modes**: Improved input mode management | بهبود مدیریت حالت‌های ورودی
+  - Keyboard mode | حالت کیبورد
+  - Input mode | حالت ورودی
+  - Both mode | حالت ترکیبی
+  - Input mode persistence | ذخیره حالت ورودی
 
 #### Technical Implementation | پیاده‌سازی فنی
 
-- 🏗️ Project structure with Next.js 15 and TypeScript 5 | ساختار پروژه با Next.js 15 و TypeScript 5
-- 📦 Modular component architecture | معماری کامپوننت ماژولار
-- 🌐 Translation system with JSON-based data | سیستم ترجمه با داده‌های مبتنی بر JSON
-- 🎯 Custom hooks for language management | هوک‌های سفارشی برای مدیریت زبان
-- 🔢 Safe math expression evaluation with validation | ارزیابی امن عبارات ریاضی با اعتبارسنجی
-- 🎨 Responsive UI design | طراحی رابط کاربری ریسپانسیو
-- ♿ Accessibility features | ویژگی‌های دسترسی‌پذیری
-- 📝 Bilingual code comments | کامنت‌های دو زبانه در کدها
+- 🏗️ **New Theme Hook**: Created useTheme.ts hook for theme management | ساخت هوک useTheme.ts برای مدیریت تم
+- 🔢 **Enhanced Math Engine**: Updated math-utils.ts with scientific functions | به‌روزرسانی موتور ریاضی با توابع علمی
+- 📚 **Extended Translations**: Added 20+ new translation keys | اضافه کردن 20+ کلید ترجمه جدید
+- 🎴 **Updated Calculator Component**: Complete rewrite with tabs and modes | بازنویسی کامل کامپوننت با تب‌ها و حالت‌ها
+- 💾 **Enhanced Persistence**: Added save/load for theme, mode, and input mode | اضافه کردن ذخیره/بارگذاری برای تم، حالت، و حالت ورودی
+- 📐 **Scientific Button Layout**: Reorganized button grid for scientific mode | چیدمان مجدد دکمه‌ها برای حالت علمی
 
 #### Documentation | مستندات
 
-- 📚 Comprehensive README in both languages | README جامع به دو زبان
-- 📋 CHANGELOG in both languages | CHANGELOG به دو زبان
-- 💡 Inline code documentation | مستندات خط به خط کد
-- 🌐 Project structure documentation | مستندات ساختار پروژه
+- 📖 **Updated README**: Comprehensive bilingual documentation with new features | مستندات جامع دو زبانه با ویژگی‌های جدید
+  - Scientific functions documentation | مستندات توابع علمی
+  - Theme documentation | مستندات تم
+  - Settings guide | راهنمای تنظیمات
+  - Examples for all modes | نمونه برای تمام حالت‌ها
 
-### Code Organization | سازماندهی کد
+#### UI/UX Improvements | بهبودهای رابط کاربری
 
-- `src/components/calculator.tsx` - Main calculator component | کامپوننت اصلی ماشین حساب
-- `src/hooks/use-language.ts` - Language management hook | هوک مدیریت زبان
-- `src/lib/translation.ts` - Translation utilities | ابزارهای ترجمه
-- `src/lib/math-utils.ts` - Math calculation utilities | ابزارهای محاسبات ریاضی
-- `public/data/locales/` - Translation files | فایل‌های ترجمه
-- `public/data/config.json` - App configuration | پیکربندی برنامه
+- 🎨 **Tabbed Interface**: Clean separation between Calculator and Settings | جداسازی تمیز بین ماشین حساب و تنظیمات
+- 🌓 **Theme Toggle**: Easy theme switching with sun/moon icons | تغییر تم آسان با آیکون‌های خورشید/ماه
+- 🔢 **Scientific Button Grid**: Compact 4x4 grid with small buttons for scientific functions | شبکه فشرده 4x4 با دکمه‌های کوچک برای توابع علمی
+- 📱 **Responsive Settings**: Settings panel adapts to all screen sizes | پنل تنظیمات تطبیق‌پذیر با تمام اندازه صفحات
+- 🎯 **Mode Indicators**: Visual feedback for active calculator and input modes | فیدبک بصری برای حالت فعال ماشین حساب و ورودی
 
-### Performance | کارایی
+### Calculator Features Summary | خلاصه ویژگی‌های ماشین حساب
 
-- ⚡ Fast initial load | بارگذاری اولیه سریع
-- 🚀 Efficient re-renders | رندر مجدد کارآمد
-- 📦 Optimized bundle size | اندازه باندل بهینه
-- 💾 Local storage caching | کشینگ با localStorage
+#### Basic Mode (پایه) Features:
+- Numbers: 0-9 | اعداد: 0-9
+- Basic operations: +, -, ×, ÷ | عملیات پایه: جمع، تفریق، ضرب، تقسیم
+- Percentage: % | درصد
+- Parentheses: (, ) | پرانتز
+- Decimal point: . | نقطه اعشار
+- Clear (C) and Delete (DEL) | پاک کردن و حذف
 
-### Browser Support | پشتیبانی مرورگر
+#### Scientific Mode (علمی) Features:
+- All Basic Mode features | تمام ویژگی‌های حالت پایه
+- Trigonometric: sin, cos, tan | مثلثاتی: سینوس، کسینوس، تانژانت
+- Logarithmic: log, ln | لگاریتمی: لگ، لگاریتم طبیعی
+- Power: ^ (via button) | توان
+- Square Root: √ | جذر
+- Absolute Value: |x| | قدر مطلق
+- Constants: π, e | ثابت‌ها: پی، e
 
-- Chrome / Edge: Latest 2 versions | آخرین 2 نسخه
-- Firefox: Latest 2 versions | آخرین 2 نسخه
-- Safari: Latest 2 versions | آخرین 2 نسخه
-- Mobile browsers (iOS Safari, Chrome Mobile) | مرورگرهای موبایل
+#### Settings (تنظیمات) Features:
+- Theme: Light, Dark | تم: روشن، تاریک
+- Language: Persian, English | زبان: فارسی، انگلیسی
+- Calculator Mode: Basic, Scientific | حالت ماشین حساب: پایه، علمی
+- Function reference guide | راهنمای مرجع توابع
+
+---
+
+### Migration Guide | راهنمای انتقال
+
+No breaking changes. All features are backward compatible.
+
+هیچ تغییری اساسی وجود ندارد. تمام ویژگی‌ها با نسخه‌های قبلی سازگار هستند.
+
+### API Changes | تغییرات API
+
+No API changes for this version.
+
+هیچ تغییری در API برای این نسخه وجود ندارد.
 
 ---
 
@@ -84,20 +116,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Planned Features | ویژگی‌های برنامه‌ریزی شده
 
-- [ ] Scientific mode (trigonometry, logarithms) | حالت علمی (مثلثات، لگاریتم)
-- [ ] Dark/Light theme toggle | تغییر تم تاریک/روشن
-- [ ] Export history to CSV | خروجی تاریخچه به CSV
-- [ ] Keyboard shortcuts support | پشتیبانی از میانبرهای کیبورد
-- [ ] More languages support | پشتیبانی از زبان‌های بیشتر
+- [ ] More scientific functions (asin, acos, atan, factorial button) | توابع علمی بیشتر (مثلثاتی معکوس، دکمه فاکتوریل)
+- [ ] Memory functions (M+, M-, MR, MC) | توابع حافظه (M+، M-، MR، MC)
 - [ ] Unit conversion | تبدیل واحدها
-- [ ] Memory functions (M+, M-, MR, MC) | توابع حافظه
+- [ ] Keyboard shortcuts support | پشتیبانی از میانبرهای کیبورد
+- [ ] Export history to CSV | خروجی تاریخچه به CSV
+- [ ] More languages support | پشتیبانی از زبان‌های بیشتر
+- [ ] Custom color themes | تم‌های رنگی سفارشی
 
 ---
 
 ## Version History | تاریخچه نسخه‌ها
 
-### 1.0.0 (2025-01-XX)
-- Initial stable release | انتشار اولیه پایدار
+### 2.0.0 (2025-12-28)
+- Scientific calculator with theme support | ماشین حساب علمی با پشتیبانی از تم
+- Settings tab with theme selection | تب تنظیمات با انتخاب تم
+- Enhanced input modes | حالت‌های ورودی بهبود یافته
+
+### 1.0.0 (Previous Release)
+- Initial bilingual calculator release | انتشار اولیه ماشین حساب دو زبانه
+- Basic arithmetic operations | عملیات ریاضی پایه
+- History support | پشتیبانی از تاریخچه
 
 ---
 
@@ -109,11 +148,11 @@ None in this version.
 
 هیچ یک در این نسخه.
 
-### Migration Guide | راهنمای انتقال
+### Known Issues | مشکلات شناخته شده
 
-N/A for this version.
+None reported.
 
-برای این نسخه وجود ندارد.
+هیچ مشکلی گزارش نشده است.
 
 ---
 

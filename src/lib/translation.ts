@@ -34,6 +34,23 @@ export type Translations = {
     keyboardMode: string;
     inputMode: string;
     both: string;
+    settings: string;
+    theme: string;
+    light: string;
+    dark: string;
+    scientific: string;
+    basic: string;
+    sin: string;
+    cos: string;
+    tan: string;
+    log: string;
+    ln: string;
+    sqrt: string;
+    pow: string;
+    abs: string;
+    pi: string;
+    e: string;
+    fact: string;
   };
   buttons: {
     [key: string]: string;
@@ -46,9 +63,9 @@ export type Translations = {
 const translationData = {
   fa: {
     app: {
-      title: "ماشین حساب",
+      title: "ماشین حساب علمی",
       author: "علی فـ. هرندی",
-      version: "1.0.0"
+      version: "2.0.0"
     },
     calculator: {
       inputPlaceholder: "عبارت ریاضی را وارد کنید...",
@@ -73,7 +90,24 @@ const translationData = {
       clearHistory: "پاک کردن تاریخچه",
       keyboardMode: "حالت کیبورد",
       inputMode: "حالت ورودی",
-      both: "هر دو"
+      both: "هر دو",
+      settings: "تنظیمات",
+      theme: "تم",
+      light: "روشن",
+      dark: "تاریک",
+      scientific: "علمی",
+      basic: "پایه",
+      sin: "سینوس",
+      cos: "کسینوس",
+      tan: "تانژانت",
+      log: "لگاریتم",
+      ln: "لگاریتم طبیعی",
+      sqrt: "جذر",
+      pow: "توان",
+      abs: "قدر مطلق",
+      pi: "پی",
+      e: "عدد e",
+      fact: "فاکتوریل",
     },
     buttons: {
       "C": "پاک کردن",
@@ -90,9 +124,9 @@ const translationData = {
   },
   en: {
     app: {
-      title: "Calculator",
+      title: "Scientific Calculator",
       author: "Ali Fـ. Harandi",
-      version: "1.0.0"
+      version: "2.0.0"
     },
     calculator: {
       inputPlaceholder: "Enter mathematical expression...",
@@ -117,7 +151,24 @@ const translationData = {
       clearHistory: "Clear History",
       keyboardMode: "Keyboard Mode",
       inputMode: "Input Mode",
-      both: "Both"
+      both: "Both",
+      settings: "Settings",
+      theme: "Theme",
+      light: "Light",
+      dark: "Dark",
+      scientific: "Scientific",
+      basic: "Basic",
+      sin: "Sine",
+      cos: "Cosine",
+      tan: "Tangent",
+      log: "Logarithm",
+      ln: "Natural Log",
+      sqrt: "Square Root",
+      pow: "Power",
+      abs: "Absolute Value",
+      pi: "Pi",
+      e: "Euler's Number",
+      fact: "Factorial",
     },
     buttons: {
       "C": "Clear",
