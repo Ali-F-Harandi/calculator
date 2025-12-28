@@ -348,3 +348,58 @@ calculator/
 ---
 
 **Made with ❤️ by Ali Fـ. Harandi**
+
+---
+
+## Additional Resources | منابع اضافی
+
+### GitHub Wiki | ویکی گیت‌هاب
+
+Full documentation is available on GitHub Wiki:
+مستندات کامل در ویکی گیت‌هاب موجود است:
+
+- 📚 [Wiki Home](https://github.com/Ali-F-Harandi/calculator/wiki)
+- ✨ [Features](https://github.com/Ali-F-Harandi/calculator/wiki/Features)
+- 🔢 [Scientific Functions](https://github.com/Ali-F-Harandi/calculator/wiki/Scientific-Functions)
+- ⚙️ [Settings](https://github.com/Ali-F-Harandi/calculator/wiki/Settings)
+- 📋 [Changelog](https://github.com/Ali-F-Harandi/calculator/blob/main/CHANGELOG.md)
+
+### Quick Reference | مرجع سریع
+
+**Scientific Functions Reference | مرجع توابع علمی:**
+
+| تابع | Function | توضیحات | Description |
+|-------|----------|-----------|-------------|
+| sin(x) | Sine | سینوس زاویه x | Sine of angle x |
+| cos(x) | Cosine | کسینوس زاویه x | Cosine of angle x |
+| tan(x) | Tangent | تانژانت زاویه x | Tangent of angle x |
+| log(x) | Logarithm | لگاریتم پایه 10 از x | Base 10 logarithm of x |
+| ln(x) | Natural Log | لگاریتم طبیعی x | Natural logarithm of x |
+| √x | Square Root | جذر x | Square root of x |
+| x^y | Power | x به توان y | x raised to power y |
+| |x| | Absolute | قدر مطلق x | Absolute value of x |
+| π | Pi | عدد پی | Pi constant 3.14159... |
+| e | Euler | عدد اویلر | Euler's number 2.71828... |
+
+**Sample Calculations | نمونه محاسبات:**
+
+```
+Basic Mode | حالت پایه:
+5 + 3 = 8
+10 × 5 = 50
+25% of 200 = 50
+
+Scientific Mode | حالت علمی:
+sin(30) = 0.5
+cos(0) = 1
+log(100) = 2
+√16 = 4
+2^3 = 8
+| -5 | = 5
+π × 2 = 6.283...
+
+Combined | ترکیبی:
+(8 - 10 + 32) / 2.5 = 12
+sin(30) + cos(60) = 1
+log(100) × π = 6.283...
+```
