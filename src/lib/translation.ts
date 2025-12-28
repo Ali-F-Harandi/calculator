@@ -40,6 +40,7 @@ export type Translations = {
     dark: string;
     scientific: string;
     basic: string;
+    engineering: string;
     sin: string;
     cos: string;
     tan: string;
@@ -51,6 +52,32 @@ export type Translations = {
     pi: string;
     e: string;
     fact: string;
+    themes: {
+      default: string;
+      blue: string;
+      green: string;
+      purple: string;
+      red: string;
+      orange: string;
+      pink: string;
+      yellow: string;
+      cyan: string;
+    };
+    angleModes: {
+      deg: string;
+      rad: string;
+      grad: string;
+    };
+    angleFunctions: {
+      inv: string;
+      hyp: string;
+    };
+    memory: {
+      sto: string;
+      rcl: string;
+      mPlus: string;
+      mMinus: string;
+    };
   };
   buttons: {
     [key: string]: string;
@@ -97,6 +124,7 @@ const translationData = {
       dark: "تاریک",
       scientific: "علمی",
       basic: "پایه",
+      engineering: "مهندسی",
       sin: "سینوس",
       cos: "کسینوس",
       tan: "تانژانت",
@@ -108,6 +136,32 @@ const translationData = {
       pi: "پی",
       e: "عدد e",
       fact: "فاکتوریل",
+      themes: {
+        default: "پیش‌فرض",
+        blue: "آبی",
+        green: "سبز",
+        purple: "بنفش",
+        red: "قرمز",
+        orange: "نارنجی",
+        pink: "صورتی",
+        yellow: "زرد",
+        cyan: "فیروزه‌ای"
+      },
+      angleModes: {
+        deg: "درجه",
+        rad: "رادیان",
+        grad: "گرادیان"
+      },
+      angleFunctions: {
+        inv: "معکوس",
+        hyp: "هایپربولیک"
+      },
+      memory: {
+        sto: "ذخیره",
+        rcl: "خواندن",
+        mPlus: "اضافه به حافظه",
+        mMinus: "کسر از حافظه"
+      }
     },
     buttons: {
       "C": "پاک کردن",
@@ -158,6 +212,7 @@ const translationData = {
       dark: "Dark",
       scientific: "Scientific",
       basic: "Basic",
+      engineering: "Engineering",
       sin: "Sine",
       cos: "Cosine",
       tan: "Tangent",
@@ -169,6 +224,32 @@ const translationData = {
       pi: "Pi",
       e: "Euler's Number",
       fact: "Factorial",
+      themes: {
+        default: "Default",
+        blue: "Blue",
+        green: "Green",
+        purple: "Purple",
+        red: "Red",
+        orange: "Orange",
+        pink: "Pink",
+        yellow: "Yellow",
+        cyan: "Cyan",
+      },
+      angleModes: {
+        deg: "Degrees",
+        rad: "Radians",
+        grad: "Gradians",
+      },
+      angleFunctions: {
+        inv: "Inverse",
+        hyp: "Hyperbolic",
+      },
+      memory: {
+        sto: "Store",
+        rcl: "Recall",
+        mPlus: "Memory+",
+        mMinus: "Memory-",
+      }
     },
     buttons: {
       "C": "Clear",
