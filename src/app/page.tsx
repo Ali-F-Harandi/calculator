@@ -7,3 +7,4 @@ import CalculatorComponent from '@/components/calculator';
 export default function Home() {
   return <CalculatorComponent />;
 }
+<!-- v2.1.0 GitHub Pages trigger -->
