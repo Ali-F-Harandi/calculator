@@ -403,3 +403,309 @@ Combined | ترکیبی:
 sin(30) + cos(60) = 1
 log(100) × π = 6.283...
 ```
+
+---
+
+## 📚 About Wiki | درباره ویکی
+
+**GitHub Wiki** is available for this repository!
+
+**ویکی گیت‌هاب** برای این ریپازیتوری موجود است!
+
+### How to Create Wiki Pages | چطور صفحات ویکی بسازیم:
+
+1. Go to the repository on GitHub
+   به ریپازیتوری در گیت‌هاب بروید
+   به گیت‌هاب https://github.com/Ali-F-Harandi/calculator بروید
+
+2. Click on the **"Wiki"** tab
+   روی تب **"Wiki"** کلیک کنید
+   روی تب **Wiki** کلیک کنید
+
+3. Click **"New Page"** to create a wiki page
+   روی **"Create New Page"** کلیک کنید تا یک صفحه ویکی بسازید
+
+4. You can create pages like:
+   می‌تونید صفحات زیر رو بسازید:
+   - [Features](https://github.com/Ali-F-Harandi/calculator/wiki/Features)
+   - [Scientific Functions](https://github.com/Ali-F-Harandi/calculator/wiki/Scientific-Functions)
+   - [Engineering Calculator](https://github.com/Ali-F-Harandi/calculator/wiki/Engineering-Calculator)
+   - [Settings Guide](https://github.com/Ali-F-Harandi/calculator/wiki/Settings)
+   - [Troubleshooting](https://github.com/Ali-F-Harandi/calculator/wiki/Troubleshooting)
+
+### Suggested Wiki Pages Structure | ساختار پیشنهادی صفحات ویکی:
+
+```
+Wiki Pages | صفحات ویکی:
+├── Home | خانه
+│   ├── Welcome message | پیام خوش‌آمد
+│   └── Links to all pages | لینک به تمام صفحات
+├── Features | ویژگی‌ها
+│   ├── Basic Mode features | ویژگی‌های حالت پایه
+│   ├── Scientific Mode features | ویژگی‌های حالت علمی
+│   ├── Themes | تم‌ها
+│   └── Settings | تنظیمات
+├── Scientific Functions | توابع علمی
+│   ├── Trigonometric (sin, cos, tan) | مثلثاتی
+│   ├── Logarithmic (log, ln) | لگاریتمی
+│   ├── Power & Root (x^y, √x) | توان و رادیکال
+│   ├── Constants (π, e) | ثابت‌ها
+│   └── Other (abs, factorial) | دیگر (قدر مطلق، فاکتوریل)
+├── Engineering Calculator | ماشین حساب مهندسی
+│   ├── Angle Modes (DEG, RAD, GRAD) | حالت زاویه
+│   ├── Inverse Functions (INV) | توابع معکوس
+│   ├── Hyperbolic Functions (HYP) | توابع هایپربولیک
+│   └── Memory Functions (M+, M-, MR, MC) | توابع حافظه
+└── Troubleshooting | عیب‌یابی
+    ├── Common issues | مشکلات رایج
+    ├── FAQ | سوالات متداول
+    └── Browser compatibility | سازگاری مرورگر
+```
+
+**Wiki را از طریق GitHub UI بسازید!** | **Build the Wiki through GitHub UI!**
+
+اگر نمی‌تونید Wiki رو از API بسازید، از رابط کاربری گیت‌هاب استفاده کنید - دسترسی آسان‌تر و امکان بیشتری داره.
+
+If you can't build Wiki via API, use GitHub UI instead - it's easier and has more features.
+
+---
+
+## 📚 About Wiki | درباره ویکی
+
+**GitHub Wiki** is available for this repository!
+
+**ویکی گیت‌هاب** برای این ریپازیتوری موجود است!
+
+### How to Create Wiki Pages | چطور صفحات ویکی بسازیم:
+
+#### From GitHub Web | از طریق GitHub Web:
+
+1. Go to repository
+   به ریپازیتوری در گیت‌هاب بروید
+   **Link**: https://github.com/Ali-F-Harandi/calculator
+
+2. Click on the **"Wiki"** tab
+   روی تب **"Wiki"** کلیک کنید
+   روی تب **"Wiki"** کلیک کنید
+
+3. Click **"New Page"** button
+   روی دکمه **"New Page"** کلیک کنید
+   روی دکمه **"Create New Page"** کلیک کنید
+
+4. Enter title and content
+   عنوان و محتوا را وارد کنید
+   عنوان و محتوا را وارد کنید
+
+5. Click **"Save Page"**
+   روی **"Save Page"** کلیک کنید
+   روی **"Save Page"** کلیک کنید
+
+#### Suggested Wiki Pages | صفحات ویکی پیشنهادی:
+
+**Home** | خانه
+- Welcome message in both languages
+- Quick links to all sections
+- Navigation guide
+
+**Features** | ویژگی‌ها
+- Calculator modes (Basic, Scientific)
+- Input modes (Keyboard, Input, Both)
+- Theme presets
+- Settings overview
+
+**Scientific Functions** | توابع علمی
+- Trigonometric: sin, cos, tan
+- Logarithmic: log, ln
+- Power & Root: x^y, √x
+- Absolute Value: |x|
+- Constants: π, e
+- Usage examples
+
+**Engineering Calculator** | ماشین حساب مهندسی
+- Angle modes: DEG (Degrees), RAD (Radians), GRAD (Gradians)
+- Inverse functions: INV (asin, acos, atan)
+- Hyperbolic functions: HYP (sinh, cosh, tanh)
+- Memory functions: STO, RCL, M+, M-, M-, MR, MC
+- Angle conversion examples
+
+**Settings** | تنظیمات
+- Theme selection guide
+- Language switching guide
+- Calculator mode guide
+- How to reset all settings
+
+**Troubleshooting** | عیب‌یابی
+- Calculator not working
+- Theme not changing
+- History not saving
+- Browser compatibility issues
+- Clear cache instructions
+
+**Build Wiki through GitHub UI!** | **از طریق رابط کاربری گیت‌هاب ویکی بسازید!**
+
+You can create wiki pages using GitHub web interface - it's easier than using the API and has more features for editing and organizing pages.
+
+می‌تونید صفحات ویکی را با استفاده از رابط کاربری گیت‌هاب بسازید - این کار راحت‌تر از استفاده از API است و قابلیت‌های بیشتری برای ویرایش و سازماندهی صفحات دارد.
+
+---
+
+## 🔗 Quick Links | لینک‌های سریع
+
+### Direct Links | لینک‌های مستقیم:
+
+- **🏠 Repository**: https://github.com/Ali-F-Harandi/calculator
+- **🌐 Live Site**: https://ali-f-harandi.github.io/calculator/
+- **📋 Issues**: https://github.com/Ali-F-Harandi/calculator/issues
+- **📚 Wiki**: https://github.com/Ali-F-Harandi/calculator/wiki
+
+### Quick Start | شروع سریع:
+
+**Basic Usage:**
+```
+5 + 3 = 8
+10 × 5 = 50
+```
+
+**Scientific Usage:**
+```
+sin(30) = 0.5
+log(100) = 2
+2^3 = 8
+```
+
+**Engineering Usage:**
+```
+Switch to RAD mode: π/2 = 1.5708 rad
+Convert DEG to RAD: sin(90°) = 1
+```
+
+---
+
+## 💡 Pro Tips | نکات حرفه‌ای
+
+### Theme Customization | شخصی‌سازی تم:
+
+- **Color Themes**: Choose from 7 different color themes
+  - 🟦 Blue (آبی) - Professional
+  - 🟩 Green (سبز) - Fresh
+  - 🟪 Purple (بنفش) - Creative
+  - 🟥 Red (قرمز) - Energetic
+  - 🟧 Orange (نارنجی) - Warm
+  - 🩷 Pink (صورتی) - Soft
+  - 🟨 Cyan (فیروزه‌ای) - Clean
+
+- **Light/Dark Mode**: Toggle between light and dark themes
+- **System Theme**: Automatically match your system preference
+
+### Calculator Modes | حالت‌های ماشین حساب:
+
+1. **Basic Mode** | حالت پایه
+   - Perfect for everyday calculations
+   - Clean and simple interface
+   - All basic operations (+, -, ×, ÷, %)
+   - Parentheses and decimals
+
+2. **Scientific Mode** | حالت علمی
+   - Advanced mathematical functions
+   - Trigonometric (sin, cos, tan)
+   - Logarithmic (log, ln)
+   - Power (x^y) and Root (√x)
+   - Absolute value (|x|)
+   - Constants (π, e)
+
+3. **Engineering Mode** | حالت مهندسی
+   - Full engineering calculator
+   - Angle conversion (DEG ↔ RAD ↔ GRAD)
+   - Inverse trigonometric (INV)
+   - Hyperbolic functions (HYP)
+   - Memory functions (M+, M-, MR, MC, STO)
+
+### Angle Modes | حالت زاویه:
+
+**DEG** | درجه:
+- All angles are in degrees
+- π = 180 degrees
+
+**RAD** | رادیان:
+- All angles are in radians
+- π = 3.14159... radians
+
+**GRAD** | گرادیان:
+- All angles are in gradians (gons)
+- π = 200 gradians
+
+### Memory Functions | توابع حافظه:
+
+**STO** | ذخیره:
+- Store current value in memory
+- Example: 5 → STO → M = 5
+
+**RCL** | بازیابی:
+- Recall value from memory
+- Example: M = 5 → RCL → Display: 5
+
+**M+** | حافظه+:
+- Add current value to memory
+- Example: M = 5, current = 3 → M+ → M = 8
+
+**M-** | حافظه-:
+- Subtract current value from memory
+- Example: M = 5, current = 2 → M- → M = 3
+
+### Advanced Examples | نمونه‌های پیشرفته:
+
+**Trigonometry:**
+```
+sin(30°) = 0.5
+cos(0) = 1
+tan(45°) = 1
+sin(90°) = 1
+```
+
+**Logarithms:**
+```
+log(1000) = 3
+ln(e) = 1
+log(10) = 1
+ln(10) = 2.30259...
+```
+
+**Powers and Roots:**
+```
+2^8 = 256
+10^2 = 100
+√64 = 8
+√2 = 1.41421...
+```
+
+**Complex Expressions:**
+```
+(sin(30) + cos(60)) × log(100) = 2
+(π × 2) / 4 = 1.5708...
+(2^3 + √16) / 4 = 3
+```
+
+---
+
+## 🎨 Color Theme Reference | مرجع تم رنگی
+
+| Theme | Colors | Colors | رنگ‌ها |
+|-------|--------|---------|
+| **Blue** | Slate/Blue | آبی طوسی |
+| **Green** | Emerald/Green | سبز زمرد |
+| **Purple** | Violet/Purple | بنفش/الوان |
+| **Red** | Rose/Red | قرمز/خاکی |
+| **Orange** | Orange/Amber | نارنجی/کهربایی |
+| **Pink** | Pink | صورتی |
+| **Yellow** | Yellow | زرد |
+| **Cyan** | Sky/Cyan | فیروزه‌ای |
+| **Light** | White | سفید |
+| **Dark** | Black/Slate-950 | تاریک |
+
+---
+
+**💾 All your settings are saved automatically in localStorage!** | **تمام تنظیمات شما به‌طور خودکار در localStorage ذخیره می‌شوند!**
+
+---
+
+Made with ❤️ by Ali Fـ. Harandi
