@@ -133,7 +133,7 @@ export default function CalculatorComponent() {
     localStorage.removeItem('calculator-history');
     toast({
       title: t('clearHistory'),
-      description: 'History cleared successfully / تاریخچه با موفقیت پاک شد',
+      description: language === 'fa' ? 'تاریخچه با موفقیت پاک شد' : 'History cleared successfully',
     });
   };
 

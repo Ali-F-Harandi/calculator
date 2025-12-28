@@ -31,7 +31,12 @@ export function useLanguage() {
   useEffect(() => {
     const savedLang = localStorage.getItem('calculator-lang') as 'fa' | 'en';
     if (savedLang && (savedLang === 'fa' || savedLang === 'en')) {
-      changeLanguage(savedLang);
+      // Apply saved language directly / اعمال مستقیم زبان ذخیره شده
+      const newDir = savedLang === 'fa' ? 'rtl' : 'ltr';
+      setLanguage({ lang: savedLang, dir: newDir });
+      setTranslations(getTranslations(savedLang));
+      document.documentElement.setAttribute('dir', newDir);
+      document.documentElement.setAttribute('lang', savedLang);
     }
   }, []);
 
