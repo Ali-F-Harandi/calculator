@@ -1,0 +1,44 @@
+{
+  "app": {
+    "title": "Calculator",
+    "author": "Ali Fـ. Harandi",
+    "version": "1.0.0"
+  },
+  "calculator": {
+    "inputPlaceholder": "Enter mathematical expression...",
+    "result": "Result",
+    "clear": "Clear",
+    "delete": "Delete",
+    "equals": "Equals",
+    "parentheses": "Parentheses",
+    "percent": "Percent",
+    "divide": "Divide",
+    "multiply": "Multiply",
+    "subtract": "Subtract",
+    "add": "Add",
+    "point": "Point",
+    "error": "Error",
+    "invalidExpression": "Invalid expression",
+    "language": "Language",
+    "persian": "Persian",
+    "english": "English",
+    "history": "History",
+    "noHistory": "No history",
+    "clearHistory": "Clear History",
+    "keyboardMode": "Keyboard Mode",
+    "inputMode": "Input Mode",
+    "both": "Both"
+  },
+  "buttons": {
+    "C": "Clear",
+    "DEL": "Delete",
+    "()": "Parentheses",
+    "%": "Percent",
+    "÷": "Divide",
+    "×": "Multiply",
+    "-": "Subtract",
+    "+": "Add",
+    ".": "Point",
+    "=": "Equals"
+  }
+}

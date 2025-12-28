@@ -14,24 +14,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "ماشین حساب | Calculator - Ali Fـ. Harandi",
+  description: "یک ماشین حساب حرفه‌ای دو زبانه با پشتیبانی از فارسی و انگلیسی | A professional bilingual calculator supporting Persian and English languages",
+  keywords: ["calculator", "ماشین حساب", "bilingual", "دو زبانه", "Persian", "Farsi", "English", "math", "ریاضی", "React", "Next.js"],
+  authors: [{ name: "علی فـ. هرندی", url: "https://github.com/Ali-F-Harandi/" }],
   icons: {
     icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
   },
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "ماشین حساب | Calculator",
+    description: "یک ماشین حساب حرفه‌ای دو زبانه | A professional bilingual calculator",
+    url: "https://ali-f-harandi.github.io/calculator/",
+    siteName: "Calculator",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    title: "ماشین حساب | Calculator",
+    description: "یک ماشین حساب حرفه‌ای دو زبانه | A professional bilingual calculator",
   },
 };
 

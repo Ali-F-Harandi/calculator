@@ -1,0 +1,9 @@
+{
+  "config": {
+    "defaultLanguage": "fa",
+    "supportedLanguages": ["fa", "en"],
+    "theme": "light",
+    "maxHistoryItems": 20,
+    "decimalPlaces": 8
+  }
+}
