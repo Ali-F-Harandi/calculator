@@ -5,7 +5,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { getTranslation, getTranslations } from '@/lib/translation';
+import { getTranslation, getTranslationWithFallback, getTranslations } from '@/lib/translation';
 
 /**
  * Language state type / نوع وضعیت زبان
@@ -62,7 +62,7 @@ export function useLanguage() {
    * @returns Translated text / متن ترجمه شده
    */
   const t = useCallback((key: string): string => {
-    return getTranslation(language.lang, key);
+    return getTranslationWithFallback(language.lang, key);
   }, [language.lang]);
 
   return {

@@ -153,6 +153,40 @@ export function getTranslation(lang: string, key: string): string {
 }
 
 /**
+ * Get translation by key with fallback to calculator section
+ * دریافت ترجمه بر اساس کلید با fallback به بخش calculator
+ * @param lang - Language code (fa/en) / کد زبان (فارسی/انگلیسی)
+ * @param key - Translation key / کلید ترجمه
+ * @returns Translated string / متن ترجمه شده
+ */
+export function getTranslationWithFallback(lang: string, key: string): string {
+  const data = translationData[lang as keyof typeof translationData] || translationData['fa'];
+
+  // Try direct key access first / اول سعی کن مستقیم به key دسترسی پیدا کنی
+  if (data[key as keyof typeof data]) {
+    return data[key as keyof typeof data] as string;
+  }
+
+  // Try nested access with dots / سپس سعی کن با dot notation دسترسی پیدا کنی
+  const keys = key.split('.');
+  let value: any = data;
+  for (const k of keys) {
+    value = value?.[k];
+    if (value === undefined) break;
+  }
+  if (value !== undefined) {
+    return value as string;
+  }
+
+  // Fallback to calculator section / در نهایت به بخش calculator fallback کن
+  if (data.calculator && data.calculator[key as keyof typeof data.calculator]) {
+    return data.calculator[key as keyof typeof data.calculator] as string;
+  }
+
+  return key;
+}
+
+/**
  * Get all translations for a language / دریافت تمام ترجمه‌های یک زبان
  * @param lang - Language code / کد زبان
  * @returns Translation object / شیء ترجمه
