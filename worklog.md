@@ -92,3 +92,64 @@
 - ⏳ بروزرسانی README.md دو زبانه | Update bilingual README.md
 - ⏳ ساخت ریپازیتوری گیت‌هاب | Create GitHub repository
 - ⏳ آماده‌سازی برای GitHub Pages | Prepare for GitHub Pages
+
+---
+
+## مرحله 5 | Stage 5: گیت‌هاب و GitHub Pages | GitHub and GitHub Pages
+
+**تاریخ/Date:** 2025-01-XX
+**نماینده/Agent:** AI Developer
+**وظیفه/Task:** استقرار پروژه روی گیت‌هاب و GitHub Pages | Deploy project to GitHub and GitHub Pages
+
+### کارهای انجام شده | Work Done:
+1. مقداردهی اولیه گیت و تنظیم شاخه main | Initialize git and set main branch
+2. ایجاد commit اولیه با تمام فایل‌های پروژه | Initial commit with all project files
+3. اتصال به ریپازیتوری گیت‌هاب calculator | Connect to GitHub calculator repository
+4. push کردن کدها به گیت‌هاب | Push code to GitHub
+5. تنظیم Next.js برای خروجی استاتیک (GitHub Pages) | Configure Next.js for static export (GitHub Pages)
+6. ایجاد GitHub Actions workflow برای استقرار خودکار | Create GitHub Actions workflow for automatic deployment
+7. فعال‌سازی GitHub Pages روی ریپازیتوری | Enable GitHub Pages on repository
+8. push نهایی با تنظیمات استقرار | Final push with deployment configuration
+
+### نتایج | Results:
+- ✅ کدها موفقانه در https://github.com/Ali-F-Harandi/calculator منتشر شدند
+- ✅ GitHub Pages فعال شد
+- ✅ GitHub Actions برای استقرار خودکار تنظیم شد
+- ✅ با هر push به شاخه main، سایت به‌طور خودکار بروزرسانی می‌شود
+- ✅ سایت در https://ali-f-harandi.github.io/calculator/ در دسترس خواهد بود
+
+---
+
+## خلاصه نهایی پروژه | Final Project Summary
+
+### همه مراحل تکمیل شدند | All stages completed:
+- ✅ ساختار داده‌های دو زبانه | Bilingual data structure
+- ✅ کامپوننت ماشین حساب با کیبورد داخلی | Calculator component with internal keyboard
+- ✅ ورودی تایپ مستقیم برای عبارات ریاضی | Direct typing input for math expressions
+- ✅ سیستم محاسبه عبارات ریاضی با پرانتز و اعشار | Math calculation system with parentheses and decimals
+- ✅ سوییچر زبان فارسی/انگلیسی | Persian/English language switcher
+- ✅ طراحی ریسپانسیو | Responsive design
+- ✅ کامنت‌گذاری دو زبانه روی کدها | Bilingual code comments
+- ✅ مستندات کامل (README, CHANGELOG) | Complete documentation (README, CHANGELOG)
+- ✅ ریپازیتوری گیت‌هاب | GitHub repository
+- ✅ آماده‌سازی و استقرار روی GitHub Pages | Prepare and deploy on GitHub Pages
+
+### ویژگی‌های کلیدی | Key Features:
+1. **دو زبانه بودن** | **Bilingual**: پشتیبانی کامل از فارسی و انگلیسی | Full support for Persian and English
+2. **کیبورد و ورودی** | **Keyboard and Input**: سه حالت: کیبورد، ورودی، ترکیبی | Three modes: keyboard, input, combined
+3. **محاسبات پیشرفته** | **Advanced Math**: پرانتز، اعشار، درصد | Parentheses, decimals, percentage
+4. **تاریخچه** | **History**: ذخیره و مشاهده تاریخچه محاسبات | Save and view calculation history
+5. **ریسپانسیو** | **Responsive**: کارکرد عالی روی همه دستگاه‌ها | Works perfectly on all devices
+6. **استقرار خودکار** | **Auto Deploy**: استقرار خودکار روی GitHub Pages | Automatic deployment on GitHub Pages
+
+### نویسنده | Author:
+**علی فـ. هرندی | Ali Fـ. Harandi**
+GitHub: https://github.com/Ali-F-Harandi/
+
+### لینک‌ها | Links:
+- 📦 ریپازیتوری گیت‌هاب | GitHub Repository: https://github.com/Ali-F-Harandi/calculator
+- 🌐 نسخه آنلاین | Live Version: https://ali-f-harandi.github.io/calculator/
+- 📖 مستندات | Documentation: README.md
+- 📋 تغییرات | Changelog: CHANGELOG.md
+
+**پروژه با موفقیت تکمیل شد! | Project completed successfully!**
